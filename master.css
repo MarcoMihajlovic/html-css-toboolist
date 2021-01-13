@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightgrey;
+  font-family: 'Imbue', serif;
+}
+
+header{
+  height: 70px;
+  background-color: white;
+  padding:10px 20px;
+  margin-bottom: 40px;
+}
+
+#logo{
+  height: 100%;
+  vertical-align: middle;
+}
+
+#logo-text{
+  font-size: 40px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+.container{
+  width: 70%;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.top{
+  height: 50px;
+  padding: 0 50px;
+  line-height: 50px;
+  border-bottom: 2px solid lightgrey;
+}
+
+.button{
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.button-color{
+  background-color: #34a4ff;
+  color: white;
+}
+
+.button-empty{
+  border: 2px solid grey;
+  background-color: white;
+  color: grey;
+}
+
+.task{
+  padding: 20px 50px;
+}
+
+li{
+  list-style: none;
+  padding: 15px 0;
+  font-size: 25px;
+}
+
+li h3::before{
+  content: '\25BE';
+}
+
+.fix{
+  padding: 0 0;
+}
+
+.circle::before{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+  line-height: 15px;
+  font-size: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.circle.checked::before{
+  content: '\2713';
+  border: 1px solid #2cc6ab;
+  color: #2cc6ab;
+}
+
+.circle.unchecked::before{
+  content: '\2717';
+  border: 1px solid red;
+  color: red;
+}
+
+.tag{
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 15px;
+  color: white;
+}
+
+.tag-type1{
+  background-color: #34a4ff;
+}
+
+.tag-type2{
+  background-color: purple;
+}
+
+.tag-type3{
+  background-color: green;
+}
+
+.tag-type4{
+  background-color: orange;
+}
+
+.tag-type5{
+  background-color: #e0a0ab;
+}
+
+.tag-type6{
+  background-color: #7ccd88;
+}
